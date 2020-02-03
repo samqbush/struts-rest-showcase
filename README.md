@@ -7,4 +7,6 @@ https://techblog.mediaservice.net/2017/09/detection-payload-for-the-new-struts-r
 https://www.exploit-db.com/exploits/42627
 
 Example exploit:
-python restshowcaseexploit.py http://XXX.XX.XXX:8080/struts2-rest-showcase/orders/3
+python restshowcasedetect.py http://XXX.XX.XXX:8080/struts2-rest-showcase/orders/3
+
+You should see a 10 second delay in response before receiving a 500 error.
